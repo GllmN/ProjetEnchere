@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse,java
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse,java
 
@@ -68,6 +69,8 @@ local.properties
 .sts4-cache/
 
 ### Java ###
+=======
+>>>>>>> aed2d4dd4449fde64b6efbb5034a9f0008a1f697
 # Compiled class file
 *.class
 
@@ -81,6 +84,10 @@ local.properties
 .mtj.tmp/
 
 # Package Files #
+<<<<<<< HEAD
+=======
+*.jar
+>>>>>>> aed2d4dd4449fde64b6efbb5034a9f0008a1f697
 *.war
 *.nar
 *.ear
@@ -90,6 +97,7 @@ local.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,java
 
@@ -102,3 +110,5 @@ MANIFEST.MF
 MANIFEST.MF
 /build/
 >>>>>>> branch 'main' of https://github.com/GllmN/ProjetEnchere
+=======
+>>>>>>> aed2d4dd4449fde64b6efbb5034a9f0008a1f697
