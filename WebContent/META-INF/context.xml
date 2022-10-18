@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- definir le pool de connexion vers la base ENCHERES -->
+	<Resource name="dsEnchere"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		type="javax.sql.DataSource"
+		url="jdbc:sqlserver://127.0.0.1:1433;databasename=ENCHERES"
+		username="sa" password="Pa$$w0rd" maxTotal="10" maxIdle="5"
+		maxWaitMillis="3000" />
+</Context>

@@ -1,0 +1,191 @@
+@charset "ISO-8859-1";
+
+button {
+	width: auto;
+	margin : 10px;
+}
+br{
+	margin: 5px;
+	padding: 5px;
+}
+
+body {
+	font-family: 'Ubuntu','Roboto', sans-serif;
+	background: #F4F7F6;
+	margin: 0;
+}
+
+input {
+}
+
+h1 {
+	text-align: center;
+	margin-top : 5px;
+	padding-top : 50px;
+	padding-bottom : 30px;
+}
+
+h2 {
+	display: flex;
+	color: #191970;
+	float: left;
+	padding-left : 200px;
+	font-size : 25px;
+}
+
+label {
+	min-width: 180px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+li {
+	font-size : 15px;
+	list-style-type: none;
+	display: inline;
+	text-decoration: underline;
+}
+
+nav{
+	text-align : center;
+}
+
+table {
+	margin-left:50px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding: 30px;
+	font-weight: 20;
+	font-size : 18px;
+	min-height: 400px;
+	min-width: 300px;
+}
+
+td{
+	padding-left : 15px;
+}
+
+tr{
+	margin : 25px
+}
+
+ul{
+	text-align: center;
+	display: inline;
+}
+
+
+/* ID */
+#search-auction{
+	margin: 10px 0px 10px 30px;
+	padding-left: 20px;
+	border: 1px solid #dcdcdc ;
+	border-radius: 10px;
+}
+
+/* CLASSE */
+.bouttonCreerCompte{
+	width: 300px;
+}
+
+.boutonAfficherProfil{
+	text-align: center;
+}
+
+.boutonMesVentesRechercher{
+	text-align: center;
+}
+
+.containerfirst{
+	margin-bottom: 30px;
+}
+
+.annonceEnchereEnCours{
+	border: 1px solid silver;
+	width: 100%;
+	max-width: 550px;
+	min-height: 140px;
+	align-items: center;
+	border-radius: 10px;
+	overflow: hidden;
+	margin:20px;
+	padding: 10px;
+	margin-left: 70px;
+}
+
+.annonceImg{
+	margin: 10px;
+	max-width: 230px;
+	width: 100%;
+	max-height: auto;
+	float: right
+}
+
+.annonceText{
+	margin: 10px;
+}
+
+.form-check > input {
+	min-width: 0px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+.form-check > label {
+	min-width: 0px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+.input-group {
+	padding-left: 5px important!;
+	width: 100%;
+}
+
+input > .form-control{
+	width:400px;
+}
+
+.logo{
+	padding-top: 30px;
+	padding-left: 20px;
+	width: 10%;
+}
+
+.modifierProfil{
+	text-align: center;
+}
+
+
+.side-search{
+	text-align: center;
+	display: flex;
+	height: 70px;
+}
+
+.side-search > input {
+	width: 50%;
+	font-size : 15px;
+}
+
+.side-search > button {
+	width: 15%;
+	height: auto;
+	color: white;
+	background-color: #191970;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size : 25px;
+	
+	
+}
+
+/*MEDIA*/
+@media all and (max-width: 850px) {
+	
+	.annonceImg{
+		display: none;
+	}
+	
+
+}

@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+	<header>
+		<div class="logo">
+			<a href="./ListesDesEncheres" title="retour accueil">
+				<img src="./images/logo_small.png" alt="logoENIecole" width="220" height=auto/>
+			</a>
+		</div>
+	</header>
+
